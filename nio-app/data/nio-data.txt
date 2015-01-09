@@ -1,0 +1,5 @@
+java -jar wiremock-1.47-standalone.jar --proxy-all="http://10.4.0.100:7001/axis2/services/NocIpLoginManagerService" --record-mappings --verbose
+java -jar wiremock-1.47-standalone.jar --proxy-all="http://10.4.0.100:7001/app/siic_auth_new.pl" --record-mappings --verbose
+java -jar wiremock-1.47-standalone.jar --proxy-all="http://10.7.70.83:10660/services/HuaXiaService/PurdoToHuaXiaService?wsdl" --record-mappings --verbose
+÷–ŒƒΩ‚ Õ
+wsgen -cp E:\group\workspace\JaxWSProject\WebContent\WEB-INF\classes ctsjavacoe.ws.fromjava.Hello -wsdl -s wssrc -d build -r wsdl
